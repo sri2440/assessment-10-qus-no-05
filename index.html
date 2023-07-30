@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment 10</title>
+</head>
+<body>
+    <h2>Assessment 10 - Qus.no.05</h2>
+<script>
+//Create a JavaScript program that prompts the user to enter a grade from 0 to 100. 
+//Convert the input to a number and then check the grade's range using the if-else statement. 
+//Display an alert with one of the following messages based on the grade: 
+
+//"Excellent!" for grades 90 and above 
+//"Good" for grades 80 to 89 
+//"Satisfactory" for grades 70 to 79 
+//"Needs Improvement" for grades below 70 
+
+let Grade=prompt("Enter a grade");
+
+if(Grade >= 90){
+    alert (`you give "excellent" grade`);
+
+console.log(`you give "excellent" grade`);
+} else if(Grade>= 80 && Grade<=89){
+    alert(`you give "Good" grade`);
+
+    console.log(`you give "Good" grade`);
+} else if(Grade>= 70 && Grade<=79){
+    alert(`you give "Satisfactory" grade`);
+
+    console.log(`you give "Satisfactory" grade`);
+} else if(Grade>= 0 && Grade<=69){
+    alert(`you give "Needs Improvement" grade`);
+
+    console.log(`you give "Needs Improvement" grade`);
+}
+</script>
+</body>
+</html>
